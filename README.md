@@ -109,7 +109,7 @@ Fresh human duodenum specimen obtained during Whipple surgery. Crypt structures 
 </table>
 
 **Volume dimensions:** ~302 × 211 × 15 µm³
-**Axial spacing:** 1 µm
+**Axial spacing:** 0.5 µm
 **Display:** 4× downsampled
 
 ---
