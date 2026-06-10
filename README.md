@@ -24,6 +24,18 @@ Our method achieves state-of-the-art realism metrics while significantly improvi
 
 ---
 
+## Highlights
+
+* First voxel-wise paired 3D BIT–fluorescence nuclei dataset
+* Quantitative validation of virtual staining using ground-truth nuclei distributions
+* Structurally faithful virtual H&E generation from label-free phase-contrast microscopy
+* Bidirectional multiscale content consistency for preserving tissue morphology
+* AdaIN-based cross-domain style reuse for realistic H&E appearance
+* Zero-shot Cellpose validation of structural preservation
+* Slide-free volumetric histopathology without fixation, sectioning, or chemical staining
+
+---
+
 ## Paper
 
 **ArXiv:** https://arxiv.org/abs/2605.22000
@@ -41,9 +53,9 @@ If you find this work useful, please consider citing:
 
 ---
 
-## Method Overview
+# Method Overview
 
-### HistoBIT3D Pipeline
+## HistoBIT3D Pipeline
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/e34f62c9-b357-4c5c-b3a3-9ef9ef197602" width="100%">
@@ -53,7 +65,7 @@ If you find this work useful, please consider citing:
 
 ---
 
-### Network Architecture
+## Network Architecture
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/063dc899-6893-406a-b471-39e658a7904a" width="100%">
@@ -63,13 +75,58 @@ If you find this work useful, please consider citing:
 
 ---
 
-### Results
+## Quantitative and Qualitative Results
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/19c31836-697e-4262-8248-e7d5a6740aac" width="100%">
 </p>
 
 **Figure 3.** Comparison of virtual H&E results against baseline methods. Zero-shot Cellpose segmentation demonstrates improved preservation of nuclei structure relative to fluorescence ground truth. Additional examples show diverse tissue samples from the HistoBIT3D dataset virtually stained from BIT into H&E.
+
+---
+
+# 3D Virtual Histopathology Examples
+
+The examples below demonstrate volumetric virtual staining of fresh human tissue acquired using our multimodal BIT microscope. These animations highlight the ability of HistoBIT3D to generate spatially consistent virtual H&E volumes while preserving tissue microarchitecture across depth.
+
+## Human Duodenum: BIT → Virtual H&E
+
+Fresh human duodenum specimen obtained during Whipple surgery. Crypt structures remain visible throughout the volume after virtual staining.
+
+<table>
+<tr>
+<td align="center"><b>BIT Input Volume</b></td>
+<td align="center"><b>Virtual H&E Volume</b></td>
+</tr>
+<tr>
+<td>
+<img src="https://github.com/user-attachments/assets/4ce83eaf-b8b2-43b0-8dec-cf12252ea2c8" width="100%">
+</td>
+<td>
+<img src="https://github.com/user-attachments/assets/95739260-1845-47b8-ac83-529f14f7abb5" width="100%">
+</td>
+</tr>
+</table>
+
+**Volume dimensions:** ~302 × 211 × 15 µm³
+**Axial spacing:** 1 µm
+**Display:** 4× downsampled
+
+---
+
+## Virtual H&E Volume Rendering
+
+A volumetric rendering generated from the virtually stained tissue volume.
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/a6f0a985-bc56-4ae9-b814-065953683e3c" width="70%">
+</p>
+
+**Volume dimensions:** ~302 × 211 × 15 µm³
+**Axial spacing:** 0.5 µm
+**Display:** 4× downsampled
+
+These examples illustrate the potential of HistoBIT3D for slide-free volumetric histopathology, enabling visualization of tissue architecture in three dimensions without fixation, sectioning, or chemical staining.
 
 ---
 
@@ -171,7 +228,7 @@ The default model includes:
 
 # Dataset Availability
 
-The HistoBIT3D multimodal microscopy dataset is currently being prepared for public release. We are actively expanding the dataset with additional tissue types and annotations and will update this repository with download instructions upon release.
+The HistoBIT3D multimodal microscopy dataset is currently being prepared for public release. We are actively expanding the dataset with additional tissue types, tumor subtypes, and pathological annotations, and will update this repository with download instructions upon release.
 
 For early access inquiries, please contact the authors.
 
