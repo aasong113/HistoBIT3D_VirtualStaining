@@ -236,7 +236,7 @@ For early access inquiries, please contact the authors.
 
 # Acknowledgements
 
-This work was supported by the Johns Hopkins Computational Biophotonics Laboratory and collaborators in pathology, urology, and biomedical engineering.
+This work was supported by the Johns Hopkins Computational Biophotonics Laboratory and collaborators in pathology, and biomedical engineering.
 
 ---
 
