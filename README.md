@@ -230,8 +230,6 @@ The default model includes:
 
 The HistoBIT3D multimodal microscopy dataset is currently being prepared for public release. We are actively expanding the dataset with additional tissue types, tumor subtypes, and pathological annotations, and will update this repository with download instructions upon release.
 
-For early access inquiries, please contact the authors.
-
 ---
 
 # Acknowledgements
