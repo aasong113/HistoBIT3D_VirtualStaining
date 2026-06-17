@@ -8,6 +8,8 @@ Official code repository for:
 
 **Virtual 3D H&E Staining from Phase-contrast Back-illumination Interference Tomography**
 
+**Early Accepted to MICCAI 2026!**
+
 ---
 
 ## Overview
